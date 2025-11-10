@@ -17,7 +17,7 @@
         @csrf
         <div>
             <label for="title">Название курса:</label>
-            <input type="text" id="title" name="title" value="{{ old('name') }}" required>
+            <input type="text" id="title" name="title" value="{{ old('title') }}" required>
         </div>
         <div>
             <label for="description">Описание:</label>
