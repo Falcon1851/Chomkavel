@@ -16,8 +16,8 @@
     <form action="{{ route('courses.update', $course) }}" method="POST">
         @csrf
         @method('PUT') <div>
-            <label for="name">Название курса:</label>
-            <input type="text" id="name" name="name" value="{{ old('name', $course->name) }}" required>
+            <label for="title">Название курса:</label>
+            <input type="text" id="title" name="title" value="{{ old('title', $course->title) }}" required>
         </div>
         <div>
             <label for="description">Описание:</label>

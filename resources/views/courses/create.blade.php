@@ -16,8 +16,8 @@
     <form action="{{ route('courses.store') }}" method="POST">
         @csrf
         <div>
-            <label for="name">Название курса:</label>
-            <input type="text" id="name" name="name" value="{{ old('name') }}" required>
+            <label for="title">Название курса:</label>
+            <input type="text" id="title" name="title" value="{{ old('name') }}" required>
         </div>
         <div>
             <label for="description">Описание:</label>
